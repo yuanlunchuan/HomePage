@@ -92,14 +92,14 @@ var Obj = {
     
   },
 
-  onChickensaladHovered: function(event){
+  onHovered: function(event){
     var self = Obj;
-    $('.chickensalad .content').removeClass('hidden');
+    $(this).children("div").removeClass('hidden');
   },
 
-  onChickensaladNormaled: function(event){
+  onNormaled: function(event){
     var self = Obj;
-    $('.chickensalad .content').addClass('hidden');
+    $(this).children("div").addClass('hidden');
   },
 
   initialize: function(){
@@ -112,7 +112,16 @@ var Obj = {
     new WOW().init();
     $('.navbar-collapse a').on('click', self.onNavBarClicked);
     $('nav li').on('click', self.onNavItemClicked);
-    $('.chickensalad').hover(self.onChickensaladHovered, self.onChickensaladNormaled);
+
+    $('.chickensalad').hover(self.onHovered, self.onNormaled);
+    $('.school').hover(self.onHovered, self.onNormaled);
+    $('.motorbike').hover(self.onHovered, self.onNormaled);
+    $('.hamandeggs').hover(self.onHovered, self.onNormaled);
+    $('.snowboard').hover(self.onHovered, self.onNormaled);
+    $('.vadering').hover(self.onHovered, self.onNormaled);
+    $('.malta').hover(self.onHovered, self.onNormaled);
+    $('.flag').hover(self.onHovered, self.onNormaled);
+
     $(window).on('scroll', self.onWindowScrolled);
     self.initIndicatorContainer();
   }
