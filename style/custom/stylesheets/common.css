@@ -1,0 +1,597 @@
+/* line 1, ../sass/common.scss */
+.border {
+  border: 1px solid #f00;
+}
+
+/* line 4, ../sass/common.scss */
+body {
+  background-color: #f3f3f3;
+}
+
+/* line 7, ../sass/common.scss */
+.big-title {
+  font-size: 55pt;
+  font-weight: bolder;
+  color: #000;
+}
+
+/* line 13, ../sass/common.scss */
+.navbar {
+  background-color: #222222;
+  border-bottom: 1px solid #222222;
+  margin-bottom: 0px;
+  height: 50px;
+}
+/* line 18, ../sass/common.scss */
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+/* line 22, ../sass/common.scss */
+.navbar .navbar-brand {
+  color: #0098f9;
+}
+
+/* line 27, ../sass/common.scss */
+#home {
+  background-image: url(../../../images/index.jpg);
+  background-size: cover;
+  height: 650px;
+  margin-top: 50px;
+}
+/* line 32, ../sass/common.scss */
+#home .lvjing {
+  background-image: url(../../../images/pattern.png);
+  width: 100%;
+  height: 100%;
+  padding: 80px 0;
+}
+/* line 37, ../sass/common.scss */
+#home .lvjing h1 {
+  color: #fff;
+  font-size: 100pt;
+  line-height: 80%;
+}
+/* line 42, ../sass/common.scss */
+#home .lvjing .green {
+  color: #0098f9;
+  padding-bottom: 30px;
+}
+/* line 46, ../sass/common.scss */
+#home .lvjing span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14pt;
+  margin: 0 10px;
+}
+/* line 51, ../sass/common.scss */
+#home .lvjing .line-box {
+  width: 160px;
+  display: inline-block;
+}
+/* line 54, ../sass/common.scss */
+#home .lvjing .line-box .line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: -6px;
+}
+/* line 61, ../sass/common.scss */
+#home .lvjing .short-line {
+  width: 100px;
+}
+/* line 65, ../sass/common.scss */
+#home .lvjing button {
+  margin-top: 30px;
+  border-radius: 0;
+  padding: 20px 20px;
+  background-color: #0098f9;
+}
+
+/* line 74, ../sass/common.scss */
+#aboutme {
+  padding-top: 100px;
+  background-color: #fff;
+}
+/* line 77, ../sass/common.scss */
+#aboutme .container {
+  height: 700px;
+}
+/* line 79, ../sass/common.scss */
+#aboutme .container .line-box {
+  width: 180px;
+  display: inline-block;
+}
+/* line 82, ../sass/common.scss */
+#aboutme .container .line-box .line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: -8px;
+}
+/* line 89, ../sass/common.scss */
+#aboutme .container .short-line {
+  width: 110px;
+}
+/* line 92, ../sass/common.scss */
+#aboutme .container h1 {
+  margin: 20px 0;
+}
+/* line 95, ../sass/common.scss */
+#aboutme .container .aboutme-img {
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+}
+/* line 99, ../sass/common.scss */
+#aboutme .container .aboutme-img .left-content {
+  position: absolute;
+  top: 34px;
+  left: 119px;
+}
+/* line 104, ../sass/common.scss */
+#aboutme .container .aboutme-img .center-content {
+  position: absolute;
+  width: 400px;
+  top: 0;
+  margin-left: -200px;
+  left: 50%;
+  z-index: 2;
+}
+/* line 112, ../sass/common.scss */
+#aboutme .container .aboutme-img .right-content {
+  position: absolute;
+  top: 30px;
+  z-index: 1;
+  left: 680px;
+}
+/* line 119, ../sass/common.scss */
+#aboutme .container span {
+  margin: 0 10px;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+}
+
+/* line 127, ../sass/common.scss */
+#skill {
+  background: url(../../../images/parallax_skills.jpg);
+  background-size: cover;
+  width: 100%;
+}
+/* line 131, ../sass/common.scss */
+#skill .lujing {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(32, 120, 177, 0.8);
+}
+/* line 135, ../sass/common.scss */
+#skill .lujing .container {
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+/* line 140, ../sass/common.scss */
+#skill .lujing .container .row {
+  margin-top: 100px;
+}
+/* line 142, ../sass/common.scss */
+#skill .lujing .container .row h4 {
+  color: #96cef2;
+}
+
+/* line 150, ../sass/common.scss */
+#project {
+  padding-top: 60px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+/* line 155, ../sass/common.scss */
+#project .container .line-box {
+  width: 180px;
+  display: inline-block;
+}
+/* line 158, ../sass/common.scss */
+#project .container .line-box .line {
+  width: 100%;
+  height: 1px;
+  margin-top: -8px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 165, ../sass/common.scss */
+#project .container .short-line {
+  width: 100px;
+}
+/* line 168, ../sass/common.scss */
+#project .container span {
+  margin: 0 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* line 172, ../sass/common.scss */
+#project .container .banner {
+  margin-top: 50px;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+}
+/* line 176, ../sass/common.scss */
+#project .container .banner .arrow {
+  position: absolute;
+  top: 200px;
+}
+/* line 180, ../sass/common.scss */
+#project .container .banner ul {
+  padding: 0;
+}
+/* line 182, ../sass/common.scss */
+#project .container .banner ul li {
+  float: left;
+  list-style: none;
+}
+/* line 186, ../sass/common.scss */
+#project .container .banner .dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+}
+/* line 191, ../sass/common.scss */
+#project .container .banner .dots li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0.4;
+  -webkit-transition: background .5s, opacity .5s;
+  -moz-transition: background .5s, opacity .5s;
+  transition: background .5s, opacity .5s;
+}
+/* line 204, ../sass/common.scss */
+#project .container .banner .dots li.active {
+  background: #fff;
+  opacity: 1;
+}
+/* line 211, ../sass/common.scss */
+#project .container .banner #al {
+  left: 15px;
+}
+/* line 214, ../sass/common.scss */
+#project .container .banner #ar {
+  right: 15px;
+}
+/* line 219, ../sass/common.scss */
+#project #ability {
+  text-align: center;
+  padding-top: 50px;
+}
+/* line 222, ../sass/common.scss */
+#project #ability a {
+  text-decoration: none;
+}
+/* line 225, ../sass/common.scss */
+#project #ability img {
+  margin: 0 auto;
+}
+
+/* line 231, ../sass/common.scss */
+#contact-num {
+  height: 600px;
+  background: url(../../../images/parallax_myprojects.jpg);
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+/* line 237, ../sass/common.scss */
+#contact-num .lvjing {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* line 241, ../sass/common.scss */
+#contact-num .lvjing .container {
+  padding-top: 100px;
+}
+/* line 243, ../sass/common.scss */
+#contact-num .lvjing .container h1 {
+  margin-top: 0px;
+}
+/* line 246, ../sass/common.scss */
+#contact-num .lvjing .container h3 {
+  color: #999;
+}
+/* line 249, ../sass/common.scss */
+#contact-num .lvjing .container .row {
+  margin-top: 150px;
+}
+/* line 252, ../sass/common.scss */
+#contact-num .lvjing .container .social-box {
+  width: 100px;
+  margin: 0 auto;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+/* line 258, ../sass/common.scss */
+#contact-num .lvjing .container .social-box img {
+  padding-top: 19px;
+  margin: 0 auto;
+}
+
+/* line 267, ../sass/common.scss */
+#interests {
+  height: 450px;
+  padding-top: 50px;
+}
+/* line 270, ../sass/common.scss */
+#interests .container {
+  text-align: center;
+}
+/* line 272, ../sass/common.scss */
+#interests .container span, #interests .container h3 {
+  margin: 0 10px;
+  color: rgba(0, 0, 0, 0.4);
+}
+/* line 276, ../sass/common.scss */
+#interests .container h3 {
+  margin-top: 80px;
+}
+/* line 279, ../sass/common.scss */
+#interests .container .line-box {
+  display: inline-block;
+  width: 200px;
+}
+/* line 280, ../sass/common.scss */
+#interests .container .line-box .line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: -8px;
+}
+/* line 289, ../sass/common.scss */
+#interests .container .short-line {
+  width: 100px;
+}
+/* line 292, ../sass/common.scss */
+#interests .container .tag {
+  margin-top: 50px;
+}
+/* line 294, ../sass/common.scss */
+#interests .container .tag button {
+  margin: 0 10px;
+  border-radius: 0;
+  background-color: #0098f9;
+  color: #fff;
+  border: 0;
+}
+
+/* line 305, ../sass/common.scss */
+#picture-show {
+  padding: 50px 0;
+}
+/* line 307, ../sass/common.scss */
+#picture-show .container-fluid {
+  height: 400px;
+}
+/* line 309, ../sass/common.scss */
+#picture-show .container-fluid .col-md-3 {
+  height: 200px;
+}
+/* line 312, ../sass/common.scss */
+#picture-show .container-fluid .chickensalad {
+  background: url(../../../images/chickensalad.jpg);
+  background-size: cover;
+  padding: 0;
+  color: #fff;
+}
+/* line 317, ../sass/common.scss */
+#picture-show .container-fluid .chickensalad .content {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 321, ../sass/common.scss */
+#picture-show .container-fluid .chickensalad .content img {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+/* line 327, ../sass/common.scss */
+#picture-show .container-fluid .school {
+  background: url(../../../images/school.jpg);
+  background-size: cover;
+}
+/* line 331, ../sass/common.scss */
+#picture-show .container-fluid .motorbike {
+  background: url(../../../images/motorbike.jpg);
+  background-size: cover;
+}
+/* line 335, ../sass/common.scss */
+#picture-show .container-fluid .hamandeggs {
+  background: url(../../../images/hamandeggs.jpg);
+  background-size: cover;
+}
+/* line 339, ../sass/common.scss */
+#picture-show .container-fluid .snowboard {
+  background: url(../../../images/snowboard.jpg);
+  background-size: cover;
+}
+/* line 343, ../sass/common.scss */
+#picture-show .container-fluid .vadering {
+  background: url(../../../images/vadering.jpg);
+  background-size: cover;
+}
+/* line 347, ../sass/common.scss */
+#picture-show .container-fluid .malta {
+  background: url(../../../images/malta.jpg);
+  background-size: cover;
+}
+/* line 351, ../sass/common.scss */
+#picture-show .container-fluid .flag {
+  background: url(../../../images/flag.jpg);
+  background-size: cover;
+}
+
+/* line 359, ../sass/common.scss */
+#data-about {
+  background: url(../../../images/parallax_facts.jpg);
+  background-size: cover;
+  color: #fff;
+}
+/* line 363, ../sass/common.scss */
+#data-about .row {
+  margin-top: 150px;
+}
+/* line 366, ../sass/common.scss */
+#data-about .shade {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  padding: 60px 0;
+}
+/* line 372, ../sass/common.scss */
+#data-about img {
+  margin: 0 auto;
+}
+/* line 375, ../sass/common.scss */
+#data-about h1 {
+  font-wight: bolder;
+}
+/* line 378, ../sass/common.scss */
+#data-about button {
+  background-color: #0098f9;
+  border-radius: 0;
+}
+
+/* line 384, ../sass/common.scss */
+#personal {
+  margin-top: 50px;
+}
+/* line 386, ../sass/common.scss */
+#personal .line-box {
+  display: inline-block;
+  width: 110px;
+}
+/* line 390, ../sass/common.scss */
+#personal .short-line {
+  width: 90px;
+}
+/* line 393, ../sass/common.scss */
+#personal .line {
+  background-color: #000;
+  width: 100%;
+  height: 1px;
+  margin-top: -8px;
+}
+/* line 399, ../sass/common.scss */
+#personal h3 {
+  margin: 50px 0;
+}
+/* line 403, ../sass/common.scss */
+#personal .born img {
+  margin: 0 auto;
+}
+/* line 406, ../sass/common.scss */
+#personal .born .vertical-line {
+  width: 1px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #000;
+}
+/* line 414, ../sass/common.scss */
+#personal .born .primary-school {
+  float: left;
+}
+/* line 417, ../sass/common.scss */
+#personal .born .primary-school-icon {
+  width: 80px;
+  margin: 0 auto;
+}
+/* line 421, ../sass/common.scss */
+#personal .born .comprehensive-shool {
+  float: right;
+  margin-top: -100px;
+}
+/* line 425, ../sass/common.scss */
+#personal .born .firmenmesse {
+  float: left;
+}
+/* line 428, ../sass/common.scss */
+#personal .born .general-motors {
+  float: right;
+  width: 450px;
+  margin-top: 140px;
+}
+/* line 432, ../sass/common.scss */
+#personal .born .general-motors p {
+  margin-top: 50px;
+}
+
+/* line 439, ../sass/common.scss */
+#phone-number {
+  background: url(../../../images/parallax_phone.jpg);
+  height: 500px;
+}
+/* line 442, ../sass/common.scss */
+#phone-number .shadow {
+  background-color: rgba(14, 96, 147, 0.8);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+/* line 447, ../sass/common.scss */
+#phone-number .shadow .container-fluid {
+  padding: 70px 0;
+}
+/* line 449, ../sass/common.scss */
+#phone-number .shadow .container-fluid h1 {
+  margin-top: 70px;
+}
+/* line 452, ../sass/common.scss */
+#phone-number .shadow .container-fluid .phone {
+  padding: 25px 300px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+/* line 457, ../sass/common.scss */
+#phone-number .shadow .container-fluid p {
+  margin-top: 80px;
+}
+
+/* line 464, ../sass/common.scss */
+#contact {
+  padding: 40px 0;
+}
+/* line 467, ../sass/common.scss */
+#contact .container .line-box {
+  width: 160px;
+  display: inline-block;
+}
+/* line 470, ../sass/common.scss */
+#contact .container .line-box .line {
+  margin-top: -7px;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+/* line 477, ../sass/common.scss */
+#contact .container .line-short {
+  width: 120px;
+}
+/* line 480, ../sass/common.scss */
+#contact .container p {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+/* line 484, ../sass/common.scss */
+#contact .container button {
+  margin: 30px 0;
+  background-color: #0098f9;
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+  padding: 10px;
+}
