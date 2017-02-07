@@ -128,5 +128,6 @@ var Obj = {
 };
 
 $(function(){
+  alert("个人资料还在更新中...");
   Obj.initialize();
 });
